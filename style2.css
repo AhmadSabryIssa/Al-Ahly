@@ -1,0 +1,216 @@
+html{
+    background: url('27884377_red_stroke_diagonal_background.png');
+    background-size: 110% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Righteous";   
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Start of NavBar */
+ul{
+    filter: drop-shadow(3px 3px 3px black);
+    background-color: bisque;
+    border-radius: 50px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    font-style: normal;
+}
+
+.navbar {
+    font-size: x-large;
+    color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar:hover{
+    color: darkred;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#ahly{
+    width: 1.5rem;
+    /* height: 1rem; */
+}
+/* End of NavBar */
+
+img{
+    filter: drop-shadow(5px 5px 5px black);
+    width: 50%;
+    height: 50%;
+}
+
+.divcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sections{
+    text-shadow: 3px 3px 3px black ;
+    color: bisque;
+}
+.sections:hover{
+    color: darkred;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Start of Real Name easteregg */
+#start{
+    text-shadow: 3px 3px 3px black ;
+    font-size: 5rem;
+    color: bisque;
+    padding-bottom: 0px;
+}
+
+.real{
+    color: bisque;
+    /* width: 20%;
+    height: 20%; */
+    padding-top: 0px;
+}
+
+.real:hover{
+    color: darkred;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+/* End of Real Name easteregg */
+
+/* Start of About section */
+p{
+    font-size: larger;
+    max-width: 75%;
+    color: bisque;
+}
+/* End of About section */
+
+/* Start of Branches section */
+#branches{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#brn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: 5rem;
+    justify-content: space-evenly , flex-start;
+    align-items: center
+
+}
+.bn{
+    margin: 3rem;
+    font-size: large;
+}
+.bn:hover{
+    color: darkred;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.b{
+    background-color: bisque;
+    border-radius: 10px;
+    height: 5rem;
+    font-size: xx-large;
+    padding: 1rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#n{
+    font-size: x-large;
+}
+/* End of Branches section */
+
+/* Start of Presidents section */
+.slider {
+    /* -webkit-appearance: none; */
+    width: 25rem;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 1s;
+    transition: opacity 1s;
+    color: red;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background: url('71N+Y2cBuCL-removebg-preview.png'); */
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+    color: red;
+  }
+
+  button{
+    font-style: normal;
+    text-shadow: 1px  1px  2px cyan;
+    font-size: medium;
+    width: 150px;
+    height: 30px;
+    font-family: "Righteous";
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    transition: width 0.5s , background-color 1s;
+    /* transition: background-color 2s; */
+    transition-timing-function: ease;
+}
+
+button:hover{
+
+    width: 250px;
+    /* height: 100px; */
+    background-color: darkred;
+    color: azure;
+}
+
+/* #collapsable{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
