@@ -170,13 +170,33 @@ ncGenerator.addEventListener("click" , ()=>{
    output.innerHTML = this.value;
  }
 
-//  var prGenerator = document.getElementById('section3');
-//  var pr = document.getElementById('collapsable');
-//  prGenerator.addEventListener("click" , ()=>{
-//    if(pr.style.display=='none')
-//    {pr.style.display='flex';}
-//    else if (pr.style.display=='flex')
-//    {pr.style.display='none'}
+ var prGenerator = document.getElementById('section3');
+ var pr = document.getElementById('collapsable');
+ prGenerator.addEventListener("click" , ()=>{
+   if(pr.style.display=='none')
+   {pr.style.display='flex';}
+   else if (pr.style.display=='flex')
+   {pr.style.display='none'}
    
-// });
+});
+
+var expander = document.getElementById('expand');
+expander.addEventListener("click" , ()=>{
+  if(expander.innerText=="Expand All"){
+   ab.style.display='block';
+   br.style.display='flex';
+   pr.style.display='flex';
+   expander.innerText="Collapse All";
+  }
+
+  else if(expander.innerText=="Collapse All"){
+   ab.style.display='none';
+   br.style.display='none';
+   pr.style.display='none';
+   expander.innerText="Expand All";
+  }
+});
+
+
+
 
