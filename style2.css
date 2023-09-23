@@ -219,7 +219,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     text-align: left;
     width: 75%;
     background-color: bisque;
@@ -228,4 +228,15 @@ button:hover{
 }
 #pres{
     color: darkred;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center , space-around;
+    align-items: center;
+}
+
+.prnames{
+    color: bisque;
+    filter: drop-shadow(3px 3px 3px black);
 }
