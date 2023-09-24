@@ -167,7 +167,7 @@ ncGenerator.addEventListener("click" , ()=>{
  
  // Update the current slider value (each time you drag the slider handle)
  slider.oninput = function() {
-   output.innerHTML = this.value;
+   output.innerHTML = Number(this.value);
  }
 
  var prGenerator = document.getElementById('section3');
@@ -197,6 +197,290 @@ expander.addEventListener("click" , ()=>{
   }
 });
 
+var show = document.getElementById('sh');
+var mitch = document.getElementById('Mitchel-ince');
+var aziz = document.getElementById('Aziz-ezzat')
+var jaafar = document.getElementById('Jaafar-wali');
+var hasanein = document.getElementById('Ahmad-hasanein');
+var khaleq = document.getElementById('Abdul-khaleq');
+var aboud = document.getElementById('Ahmad-aboud');
+var khatib = document.getElementById('Bibo');
+var taher = document.getElementById('Mahmoud-taher');
+var hassan = document.getElementById('Hassan-hamdy');
+var selim = document.getElementById('Saleh-selim');
+var wahsh =document.getElementById('Saleh-elwahsh');
+var mortaji = document.getElementById('Mohsen-mortaji');
+var wakil = document.getElementById('Ibrahim-wakil');
+var dosouky = document.getElementById('Salah-dosouky');
+
+show.addEventListener('click' , ()=>{
+   if(slider.value >= 1907 && slider.value <= 1908){
+      mitch.style.display='flex';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1908 && slider.value <= 1916){
+      mitch.style.display='none';
+      aziz.style.display='flex';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1916 && slider.value <= 1924){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='flex';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1924 && slider.value <= 1944){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='flex';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1944 && slider.value <= 1946){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='flex';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1947 && slider.value <= 1961){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='flex';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1962 && slider.value <= 1965){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='flex';
+   }
+   if(slider.value >= 1965 && slider.value <= 1967){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='flex';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1967 && slider.value <= 1971){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='flex';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1972 && slider.value <= 1980){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='flex';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1980 && slider.value <= 1988){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='flex';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1988 && slider.value <= 1992){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='flex';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 1992 && slider.value <= 2002){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='flex';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 2002 && slider.value <= 2014){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='none';
+      hassan.style.display='flex';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 2014 && slider.value <= 2017){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='none';
+      taher.style.display='flex';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
+   if(slider.value >= 2017 && slider.value <= 2023){
+      mitch.style.display='none';
+      aziz.style.display='none';
+      jaafar.style.display='none';
+      hasanein.style.display='none';
+      khaleq.style.display='none';
+      aboud.style.display='none';
+      khatib.style.display='flex';
+      taher.style.display='none';
+      hassan.style.display='none';
+      selim.style.display='none';
+      wahsh.style.display='none';
+      mortaji.style.display='none';
+      wakil.style.display='none';
+      dosouky.style.display='none';
+   }
 
 
 
+
+
+
+
+
+
+
+
+
+
+})
